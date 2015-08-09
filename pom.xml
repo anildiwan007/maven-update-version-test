@@ -3,4 +3,19 @@
   <groupId>com.anil</groupId>
   <artifactId>maven-update-version-test</artifactId>
   <version>02.00.00.345</version>
+  
+  <distributionManagement>
+        <repository>
+            <id>local-repository</id>
+            <url>file:///Users/anildiwan/.m2/repository/</url>
+        </repository>
+    </distributionManagement>
+
+    <scm>
+        <url>https://github.com/anildiwan007/maven-update-version-test</url>
+        <connection>scm:git@github.com:anildiwan007/maven-update-version-test.git</connection>
+        <developerConnection>scm:git@github.com:anildiwan007/maven-update-version-test.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+  
 </project>
